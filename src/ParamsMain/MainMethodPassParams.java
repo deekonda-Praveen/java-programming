@@ -12,8 +12,9 @@ public class MainMethodPassParams {
         for(String s:args){
             System.out.print(s+" ");
            // System.out.print(" ");
-        }
-        System.out.println();
+        }System.out.println();
+        System.out.println("length of the string="+args.length);
+
         MainMethodPassParams par=new MainMethodPassParams();
         par.main();
     }
